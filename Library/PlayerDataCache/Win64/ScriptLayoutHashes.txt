@@ -2,16 +2,7 @@ Win64
 PlayerPath?
 F:/Build/ProblemSolvingChallenge.exe
 SceneListBegin?
-Assets/Scenes/S10.unity
-Assets/Scenes/S1.unity
-Assets/Scenes/S2.unity
-Assets/Scenes/S3.unity
-Assets/Scenes/S4.unity
 Assets/Scenes/S5.unity
-Assets/Scenes/S6.unity
-Assets/Scenes/S7.unity
-Assets/Scenes/S8.unity
-Assets/Scenes/S9.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 cabe4205429d9ee689f775e3a538f979 Assembly-CSharp.dll:.FoodControllerScript
