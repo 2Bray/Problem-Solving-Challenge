@@ -51,7 +51,7 @@ public class FoodControllerScript : MonoBehaviour
         Player.GetFood(scoreIndikator, true);
 
         //Jika Ini Step-7 Maka Seleseai
-        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(7)) return;
+        if (SceneManager.GetActiveScene().name == "S7") return;
 
         //Memulai perhitungan untuk memunculkan kembali object food
         StartCoroutine(setActive(food));
