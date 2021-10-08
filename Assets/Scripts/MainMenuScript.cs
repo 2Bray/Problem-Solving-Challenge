@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MainMenuScript : MonoBehaviour
 {
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     public void openScene(int idx)
     {
         SceneControllerScript.openScene(idx);

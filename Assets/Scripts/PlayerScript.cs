@@ -12,7 +12,7 @@ public class PlayerScript : MonoBehaviour
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        playerRb.sharedMaterial.bounciness = 0;
+        playerRb.sharedMaterial = null;
     }
 
     private void FixedUpdate()

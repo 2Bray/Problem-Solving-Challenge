@@ -6,13 +6,12 @@ public class ControlPlayerScript : MonoBehaviour
 {
     private float speed = 0.01f;
     private Rigidbody2D playerRb;
-    private bool hit = false;
 
 
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        playerRb.sharedMaterial.bounciness = 0;
+        playerRb.sharedMaterial = null;
     }
 
     private void FixedUpdate()
